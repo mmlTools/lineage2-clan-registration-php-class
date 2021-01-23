@@ -1,0 +1,43 @@
+###########################################
+# Copyright ©Darksoke's Coding Services
+# Discord: https://discord.gg/YCUpNz77j
+#
+#
+# Configuration file overrides the default
+# configurations inside the core
+###########################################
+
+# Database configuration
+database.host = localhost
+database.user = root
+database.password =
+database.db = l2
+database.table = l2_clans
+
+# Config redirect after success
+# Where do you want your user to be redirected after
+# clan registration was successful
+redirect.success =
+
+# Upload configurations
+# *.path = please keep the path within ClanRegistrationModule
+upload.path = ClanRegistrationModule/Plugin/vendor/uploads/
+
+# Max Allowed size for crest images
+# Only Gif/BMP/Jpeg/PNG images allowed
+crest.required = 1
+crest.width = 24
+crest.height = 12
+crest.extensions = png/jpg/jpeg/gif/bmp
+
+# Miscellaneous system configurations
+misc.strFieldMinLength = 3
+misc.strFieldMaxLength = 50
+misc.maxMembersPerClan = 255
+
+# Configure listing fields
+list.maxResults = 5
+list.crest = 1
+list.clan_name = 1
+list.leader = 1
+list.members = 1
