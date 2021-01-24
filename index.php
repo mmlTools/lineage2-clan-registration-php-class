@@ -31,13 +31,17 @@ $request = new \ClanRegistrationModule\index();
 </head>
 <body>
 <div class="main">
-    <div class="container">
+    <div class="container-fluid">
         <div class="row main-content">
-            <div class="col-6">
-                <?= $request::getList(['subTitle' => ["My awesome subtitle", true]]) ?>
-            </div>
-            <div class="col-6">
-                <?= $request::getForm() ?>
+            <div class="col-8">
+                <div class="row">
+                    <div class="col-6">
+                        <?= $request::getList(['subTitle' => ["My awesome subtitle", true]]) ?>
+                    </div>
+                    <div class="col-6">
+                        <?= $request::getForm() ?>
+                    </div>
+                </div>
             </div>
         </div>
     </div>

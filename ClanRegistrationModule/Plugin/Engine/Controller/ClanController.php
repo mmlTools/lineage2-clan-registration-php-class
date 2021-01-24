@@ -101,7 +101,7 @@ class ClanController{
 
         if(isset($data[1]['success']) && !empty($data[1]['success'])):
                 $form .= '<div class="alert alert-success alert-dismissible fade show" role="alert">';
-                $form .= '  <strong>Error!</strong> '.$data[1]['success'];
+                $form .= '  <strong>Success!</strong> '.$data[1]['success'];
                 $form .= '  <button type="button" class="close" data-dismiss="alert" aria-label="Close">';
                 $form .= '    <span aria-hidden="true">&times;</span>';
                 $form .= '  </button>';

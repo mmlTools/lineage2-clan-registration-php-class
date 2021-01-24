@@ -1,5 +1,6 @@
 body{
-    background: #020200;
+    background: #fff url(bg.jpg) no-repeat;
+    background-position: center top;
 }
 
 .main-content{

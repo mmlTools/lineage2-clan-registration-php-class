@@ -36,7 +36,7 @@ misc.strFieldMaxLength = 50
 misc.maxMembersPerClan = 255
 
 # Configure listing fields
-list.maxResults = 5
+list.maxResults = 9
 list.crest = 1
 list.clan_name = 1
 list.leader = 1

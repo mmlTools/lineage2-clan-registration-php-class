@@ -1,19 +1,20 @@
 .clan-registration-module.card{
-    background: rgb(44, 39, 36);
     -webkit-box-shadow: 0 0 6px rgba(13,13,12,0.5), 0 0 9px rgba(0,0,0,0.79), inset 0 2px 6px 1px rgba(255,255,255,0.03), inset 0 0 5px rgba(252,252,252,0.05);
     box-shadow: 0 0 6px rgba(13,13,12,0.5), 0 0 9px rgba(0,0,0,0.79), inset 0 2px 6px 1px rgba(255,255,255,0.03), inset 0 0 5px rgba(252,252,252,0.05);
     -moz-border-radius: 5px;
     -webkit-border-radius: 5px;
     border-radius: 5px;
-    color: #9c9e80;
+    color: #403b7e;
 }
-.clan-registration-module.card .card-body{}
+.clan-registration-module.card .card-body{
+    background: #fff url(img/bodybg.png) no-repeat;
+    background-position: right bottom;
+}
 .clan-registration-module.card .card-body table{
     margin-top: 30px;
-    color: #b5a590;
+    color: #403b7e;
     font-family: Arial,Helvetica,sans-serif;
     font-size: 14px;
-    text-shadow: 1px 1px 1px rgba(0,0,0,.4);
     border-radius: 2px;
     box-shadow: 0 0 6px rgba(0,0,0,.25), 2px 2px 1px rgba(0,0,0,.05);
     transition: all 400ms;
@@ -31,23 +32,23 @@
 }
 
 .clan-registration-module.card .card-body table tbody tr:nth-child(odd) {
-    background: rgba(115, 99, 77, 0.17);
+    background: rgb(33 150 243 / 18%);
 }
 
 .clan-registration-module.card .btn-primary:hover{
-    background: rgb(29 25 23);
-    border: 1px solid #2f2724;
+    background: #2196F3;
+    border: 1px solid #03A9F4;
 }
 
 .clan-registration-module.card .btn-primary{
-    background: rgba(123, 88, 71, 0.08);
-    -webkit-box-shadow: 0 0 6px rgba(13,13,12,0.5), 0 0 9px rgba(0,0,0,0.79), inset 0 2px 6px 1px rgba(255,255,255,0.03), inset 0 0 5px rgba(252,252,252,0.05);
-    box-shadow: 0 0 6px rgba(13,13,12,0.5), 0 0 9px rgba(0,0,0,0.79), inset 0 2px 6px 1px rgba(255,255,255,0.03), inset 0 0 5px rgba(252,252,252,0.05);
+    background: rgb(33 150 243 / 34%);
+    -webkit-box-shadow: 0 0 6px rgb(174 215 249), 0 0 9px rgb(190 226 243), inset 0 2px 6px 1px rgba(255,255,255,0.03), inset 0 0 5px rgba(252,252,252,0.05);
+    box-shadow: 0 0 6px rgb(174 215 249), 0 0 9px rgb(190 226 243), inset 0 2px 6px 1px rgba(255,255,255,0.03), inset 0 0 5px rgba(252,252,252,0.05);
     -webkit-transition: .3s all;
     -o-transition: .3s all;
     transition: .3s all;
-    color: #90856e;
-    border: 1px solid #2f2724;
+    color: #ffffff;
+    border: 1px solid #2196F3;
     border-radius: 3px;
 }
 
@@ -57,15 +58,21 @@
 .clan-registration-module.card textarea,
 .clan-registration-module.card select {
     color: #8a6f5f;
-    background-color: #2b281661;
+    background-color: #2196f314;
     background-image: none;
-    border: 1px solid #4a4646;
+    border: 1px solid #007ab1;
     border-radius: 4px;
     -webkit-box-shadow: 0 1px 3px 0 rgba(0,0,0,0.18), 0 1px 0 0 rgba(255,255,255,0.05) inset;
     box-shadow: 0 1px 3px 0 rgba(0,0,0,0.18), 0 1px 0 0 rgba(255,255,255,0.05) inset;
     -webkit-transition: border-color ease-in-out 0.15s,box-shadow ease-in-out 0.15s;
     -o-transition: border-color ease-in-out 0.15s,box-shadow ease-in-out 0.15s;
     transition: border-color ease-in-out 0.15s,box-shadow ease-in-out 0.15s;
+}
+
+.clan-registration-module.card .card-header{
+    background: #ffffff url(img/headbg.png) no-repeat;
+    background-position: center top;
+    background-size: cover;
 }
 
 .clan-registration-module.card .card-body .form-control:disabled, .form-control[readonly] {
@@ -75,12 +82,12 @@
 
 .clan-registration-module.card .card-body .alert-danger {
     color: #bd5149;
-    background-color: #3a1e21;
-    border-color: #402528;
+    background-color: #3a1e212b;
+    border-color: #4025282e;
 }
 
 .clan-registration-module.card .card-body .alert-success {
-    color: #068222;
-    background-color: #102114;
-    border-color: #152b1a;
+    color: #008205;
+    background-color: #10211436;
+    border-color: #152b1a42;
 }
