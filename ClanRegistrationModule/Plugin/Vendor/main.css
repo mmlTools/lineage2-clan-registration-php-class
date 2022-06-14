@@ -1,6 +1,6 @@
 .clan-registration-module.card{
-    -webkit-box-shadow: 0 0 6px rgba(13,13,12,0.5), 0 0 9px rgba(0,0,0,0.79), inset 0 2px 6px 1px rgba(255,255,255,0.03), inset 0 0 5px rgba(252,252,252,0.05);
-    box-shadow: 0 0 6px rgba(13,13,12,0.5), 0 0 9px rgba(0,0,0,0.79), inset 0 2px 6px 1px rgba(255,255,255,0.03), inset 0 0 5px rgba(252,252,252,0.05);
+    -webkit-box-shadow: box-shadow: 0 0 20px 0px #d5d5d5;;
+    box-shadow: box-shadow: 0 0 20px 0px #d5d5d5;;
     -moz-border-radius: 5px;
     -webkit-border-radius: 5px;
     border-radius: 5px;

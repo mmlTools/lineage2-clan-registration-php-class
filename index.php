@@ -1,14 +1,14 @@
 <?php
 ##################################################
-# Copyright ©Darksoke's Coding Services
-# Discord: https://discord.gg/YCUpNz77j
+# Copyright ©MMLTech Coding Services
+# Website: https://mmltools.com
 #
 # Redistribution of this code is not permitted
 # Do not touch the code below unless you know
 # what you are doing
 ##################################################
 
-include "ClanRegistrationModule/index.php";
+require_once "ClanRegistrationModule/index.php";
 $request = new \ClanRegistrationModule\index();
 
 ?>
@@ -27,7 +27,6 @@ $request = new \ClanRegistrationModule\index();
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link rel="stylesheet" href="site_style.css">
     <?= $request::getStyle() ?>
-
 </head>
 <body>
 <div class="main">
@@ -48,7 +47,7 @@ $request = new \ClanRegistrationModule\index();
 </div>
 <footer class="footer">
     <div class="container text-center">
-        <p>Copyright ©<a href="https://discord.gg/YCUpNz77jW">Darksoke's Coding Services</a> 2019</p>
+        <p>Copyright ©<a href="https://mmltools.com">MMLTech Coding Services</a> 2019</p>
     </div>
 </footer>
 <!-- jQuery library -->

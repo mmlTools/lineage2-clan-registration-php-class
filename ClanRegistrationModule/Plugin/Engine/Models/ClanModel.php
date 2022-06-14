@@ -1,4 +1,13 @@
 <?php
+##################################################
+# Copyright ©MMLTech Coding Services
+# Website: https://mmltools.com
+#
+# Redistribution of this code is not permitted
+# Do not touch the code below unless you know
+# what you are doing
+##################################################
+
 namespace ClanRegistrationModule\Plugin\Engine\Models;
 
 use ClanRegistrationModule\Plugin\Engine\Configuration;

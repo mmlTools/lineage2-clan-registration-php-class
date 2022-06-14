@@ -1,7 +1,7 @@
 <?php
 ##################################################
-# Copyright ©Darksoke's Coding Services
-# Discord: https://discord.gg/YCUpNz77j
+# Copyright ©MMLTech Coding Services
+# Website: https://mmltools.com
 #
 # Redistribution of this code is not permitted
 # Do not touch the code below unless you know

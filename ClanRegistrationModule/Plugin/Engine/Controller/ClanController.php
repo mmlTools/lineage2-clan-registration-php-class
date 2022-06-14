@@ -1,7 +1,7 @@
 <?php
 ##################################################
-# Copyright ©Darksoke's Coding Services
-# Discord: https://discord.gg/YCUpNz77j
+# Copyright ©MMLTech Coding Services
+# Website: https://mmltools.com
 #
 # Redistribution of this code is not permitted
 # Do not touch the code below unless you know
@@ -119,7 +119,7 @@ class ClanController{
         $form .='            </div>';
         $form .='            <div class="form-group">';
         $form .='                <label class="sr-only" for="inputClanMembers">Clan Members</label>';
-        $form .='                <input type="text" class="form-control" id="inputClanMembers" name="inputClanMembers" '.(isset($_POST['inputClanName']) ? "value=\"{$_POST['inputClanMembers']}\"" : "").' aria-describedby="inputClanMembersHelp" placeholder="Enter clan population">';
+        $form .='                <input type="number" class="form-control" id="inputClanMembers" name="inputClanMembers" '.(isset($_POST['inputClanName']) ? "value=\"{$_POST['inputClanMembers']}\"" : "").' aria-describedby="inputClanMembersHelp" placeholder="Enter clan population">';
         $form .='            </div>';
         $form .='            <div class="form-group">';
         $form .='                <label for="fileClanCrest">Upload Clan Crest</label>';
